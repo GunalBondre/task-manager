@@ -1,0 +1,35 @@
+@import './variables';
+@import '../abstract/mixins';
+
+
+
+h1 {
+    @include heading-style($font-size-xxl, $font-weight-bold, $line-height-sm);
+}
+
+h2 {
+    @include heading-style($font-size-xl, $font-weight-bold, $line-height-md);
+}
+
+h3 {
+    @include heading-style($font-size-lg, $font-weight-bold, $line-height-md);
+}
+
+h4 {
+    @include heading-style($font-size-md, $font-weight-medium, $line-height-lg);
+}
+
+h5 {
+    @include heading-style($font-size-sm, $font-weight-medium, $line-height-lg);
+}
+
+h6 {
+    @include heading-style($font-size-xs, $font-weight-medium, $line-height-lg);
+}
+
+// Paragraph style
+p {
+    font-size: $font-size-md;
+    font-weight: $font-weight-regular;
+    line-height: $line-height-md;
+}

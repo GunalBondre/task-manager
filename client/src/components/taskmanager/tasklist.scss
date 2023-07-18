@@ -1,0 +1,18 @@
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    background-color: red;
+    padding: 1rem;
+    color: white;
+
+    li {
+        flex: 1;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+}

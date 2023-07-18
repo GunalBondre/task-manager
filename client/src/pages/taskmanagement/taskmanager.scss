@@ -1,0 +1,13 @@
+.taskmanager {
+    width: 100%;
+    display: flex;
+
+    &__left {
+        width: 15%;
+    }
+
+    &__right {
+        width: 85%;
+    }
+
+}

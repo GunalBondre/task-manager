@@ -1,0 +1,10 @@
+.sidebar {
+  background-color: teal;
+  color: white;
+  height: 100vh;
+  padding: 1rem;
+  max-width: 15vw;
+}
+.sidebar .list-item {
+  margin: 1rem 0;
+}/*# sourceMappingURL=Sidebar.css.map */

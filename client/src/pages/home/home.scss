@@ -1,0 +1,27 @@
+@import '../../styles/abstract/mixins';
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background: url('../../images/background.webp') no-repeat;
+    background-size: cover;
+
+    @include flex-center(flex, row, center, center);
+
+    &__container {
+        width: 50%;
+        text-align: center;
+
+        h2 {
+            font-size: 42px;
+        }
+
+        .button {
+            background-color: red;
+            color: white;
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            display: inline-block;
+        }
+    }
+}
